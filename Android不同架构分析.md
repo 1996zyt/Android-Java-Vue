@@ -16,7 +16,7 @@ b.用Kotlin
 
 #### （2）MVC
 
-这种架构与不分离相比，多出了一个Model，专门用于逻辑处理，在Activity中直接实例化Model，然后当Activity需要网络请求或进行一些逻辑操作时，直接调用Model处理，之后如果UI产生了变动，要怎么通知Activity刷新。
+这种架构与不分离相比，多出了一个Model，专门用于逻辑处理，在Activity中直接实例化Model，然后当Activity需要网络请求或进行一些逻辑操作时，直接调用Model处理，之后如果UI产生了变动，通知Activity刷新。
 
 那要怎么通知Activity刷新呢？
 
